@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="debug" />
+	<File name="..\..\..\addons\ofxMtActions\src\ofxMtActionTouch.h" open="1" top="1" tabpos="6">
+		<Cursor position="890" topLine="7" />
+	</File>
+	<File name="..\..\..\addons\ofxMtActions\src\ofxMtActionsHub.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="1348" topLine="79" />
+	</File>
+	<File name="..\..\..\addons\ofxMultiTouch\src\ofxMultiTouch.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="1886" topLine="12" />
+	</File>
+	<File name="..\..\..\addons\ofxTuio\src\ofxTuioClient.h" open="0" top="0" tabpos="2">
+		<Cursor position="556" topLine="38" />
+	</File>
+	<File name="src\main.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="312" topLine="0" />
+	</File>
+	<File name="src\myMtRotatableScalableItem.h" open="1" top="0" tabpos="5">
+		<Cursor position="479" topLine="0" />
+	</File>
+	<File name="src\testApp.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="904" topLine="8" />
+	</File>
+	<File name="src\testApp.h" open="1" top="0" tabpos="3">
+		<Cursor position="1483" topLine="36" />
+	</File>
+</CodeBlocks_layout_file>
