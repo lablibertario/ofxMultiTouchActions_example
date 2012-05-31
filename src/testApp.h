@@ -15,12 +15,12 @@
 #include "myMtSlider.h"
 
 class testApp : public ofBaseApp{
-	
+
 public:
 	void setup();
 	void update();
 	void draw();
-	
+
 	void keyPressed  (int key);
 	void keyReleased(int key);
 	void mouseMoved(int x, int y );
@@ -28,35 +28,35 @@ public:
 	void mousePressed(int x, int y, int button);
 	void mouseReleased(int x, int y, int button);
 	void windowResized(int w, int h);
-	
+
 	//TUIO CALLBACK FUNCTIONS
-	void tuioObjectAdded(TuioObject & tobj);
-	void tuioObjectUpdated(TuioObject & tobj);
-	void tuioObjectRemoved(TuioObject & tobj);
-	
-	void tuioCursorAdded(TuioCursor & tcur);
-	void tuioCursorRemoved(TuioCursor & tcur);
-	void tuioCursorUpdated(TuioCursor & tcur);
-	
+	void tuioObjectAdded(ofxTuioObject & tobj);
+	void tuioObjectUpdated(ofxTuioObject & tobj);
+	void tuioObjectRemoved(ofxTuioObject & tobj);
+
+	void tuioCursorAdded(ofxTuioCursor & tcur);
+	void tuioCursorRemoved(ofxTuioCursor & tcur);
+	void tuioCursorUpdated(ofxTuioCursor & tcur);
+
 	//TUIO CLIENT
-	ofxTuioClient myTuio;
-	
+	myTuioClient myTuio;
+
 	//button without callback function
 	myMtButton button;
 	//button with a callback in testApp (void buttonTwoCallback())
 	myMtEventButton buttonTwo;
-	
+
 	//markerButton
 	myMarkerButton markerButton;
-	
+
 	//MultiTouch Actions Hub [manage priorities and zIndex/depth in the stack of each mtActionObj]
 	ofxMtActionsHub mtActionsHub;
-	
+
 	//rotatable and scalable item
 	myMtRotatableScalableItem draggableRotatableScalableItem;
 	myMtRotatableScalableItem scalableItem;
 	myMtRotatableScalableItem draggableItem;
-	
+
 	//sliders
 	ofxMtActionsHub mtSliderHub;
 	bool drawSliders;
@@ -66,7 +66,7 @@ public:
 	myMtSlider rSlider;
 	myMtSlider gSlider;
 	myMtSlider bSlider;
-	
+
 	//buttonTwo Callback
 	void buttonTwoCallback(ofEventArgs & voidArgs);
 	void updateBackgroundColor(ofEventArgs & voidArgs);
